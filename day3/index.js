@@ -20,12 +20,6 @@ console.log(isTrue);
     color: red;
   } */
 
- var  height;
- var  height;
- console.log(height);  //  ->  undefined
-
- console.log(Boolean(100));
-
  console.log(Boolean(100));
  console.log(Boolean(1));
  console.log(Boolean(0));
