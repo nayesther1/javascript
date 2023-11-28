@@ -59,4 +59,16 @@ console.log(One <= Two);
 console.log(One <= Three);
 
 
+let  counter1;
+console.log(counter1);  //  ->  undefined
+ {
+          counter1  =  1;
+          {
+                 console.log(counter1);  //  ->  1
+         }
+     }
+ counter1  =  counter1  +  1;
+  console.log(counter1);  //  ->  2
+
+
 
